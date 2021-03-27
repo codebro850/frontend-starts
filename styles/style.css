@@ -316,7 +316,7 @@ align-self: center;
     left: 0;
     width: 100%;
    height: 600px;
-    background: url(../images/landscape-4371647_1280.jpg);
+    /* background: url(../images/landscape-4371647_1280.jpg); */
     background-size: cover;
     z-index: -1;
 }
