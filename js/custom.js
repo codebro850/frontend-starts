@@ -1,17 +1,19 @@
 $(document).ready(function()
 {
-    var header = $('.navbar');
-    function setHeader()
-	{
-		if($(window).scrollTop() > 127)
+    var header = $('nav .navbar');
+    
+	header.addClass('stop');
+
+	   console.log(($(window).scrollTop));
+		if($(window).scrollTop() > 127||$(html).scrollTop>127)
 		{
-			header.addClass('stop');
-			headerSocial.addClass('stop');
+			header.addClass('fix-nav');
+			console.log('scrolled')
+			
 		}
 		else
 		{
-			header.removeClass('stop');
-			headerSocial.removeClass('stop');
+			header.removeClass('fix-nav');
 		}
-	}
+
 });
