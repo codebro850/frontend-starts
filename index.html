@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+rel="stylesheet"
+/>
+<!-- swiper -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!-- cusgtom css -->
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>welcome to tourastic</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+    <div class="top-header bg-secondary">
+        <div class="container">
+
+            <div class="top-nav">
+                <ul>
+                    <li><i class="fas fa-phone"></i>+91 8223028910</li>
+                    <li><i class="fas fa-envelope"></i>info@tourastic.com</li>
+
+
+                </ul>
+                 <ul>
+                        <li><a href="#"><i class="fas fa-user"></i>signup/login</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- navigation bar -->
+<div class="container ">
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#"> Tourastic  <spain class="color-primary">   Holidays</spain></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Flights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+                  >Hotels</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+</header>
+<!-- !header end -->
+<!-- crousel banner -->
+<section class="banner">
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/home_slider.jpg" alt="slide1">
+                <div class="caption">
+                    <h1 class=""> Enjoy the view 
+                    </h1>
+                </div>
+           </div>
+          <div class="swiper-slide"><img src="images/beach1.jpg" alt="slide2"></div>
+          <div class="swiper-slide"><img src="images/beach-4852830_1280.jpg" alt="slide3"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+
+</section>
+<!-- crousel !banner end -->
+<!-- search section -->
+<section id="search">
+    <div class="container">
+        <div class="search-options">
+            <div class="item">
+              <h5 class="h5 color-primary">Destination</h5>
+              <input type="text" class="form-control" name="destination" id="destination-place" placeholder="your Destiny">
+
+            </div>
+            <div class="item">
+                <h5 class="h5">Date</h5>
+                <input type="date" class="form-control" name="date" id="date-travel" placeholder="dd/mm/yyyy to dd/mm/yyyy">
+
+            </div>
+            <div class="item">
+                <h5 class="h5">price</h5>
+                <input type="number" class="form-control" name="price" id="price-field" placeholder="filter as low you can">
+            </div>
+            <div class="item">
+                <button class="btn-theme"> <i class="fas fa-search"></i> Search</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- search section end -->
+<!-- destinations top sale -->
+<section id="featured">
+        <div class="container">
+             <div class="title">
+                 <h4 class="title-primary">Fantastic Holidays</h4>
+                 <h4 class="title-secondary">Featured Places</h4>
+
+                 
+
+             </div>
+           <div class="row px-0 py-5">
+               <div class="col-lg-3 col-md-4 px-1 my-2">
+                   <div class="card-design">
+                       <div class="image">
+                           <img src="images/destination_5.jpg" alt="destination1">
+                       </div>
+                         <div class="card-text shadow">
+                             <div class="item">
+                                 <span> <i class="fas fa-star"></i>(5K+)</span>
+                                 
+                                 <h4 class="h4">Places</h4>
+                                </div>
+                                 <div class="item">
+                                     <button class="btn">$ 4556</button>
+                                 </div>
+                             
+                         </div>
+                        </div>
+                   </div>
+                   <div class="col-lg-3 col-md-4 px-1 my-2">
+                    <div class="card-design">
+                        <div class="image">
+                            <img src="images/destination_5.jpg" alt="destination1">
+                        </div>
+                          <div class="card-text shadow">
+                              <div class="item">
+                                  <span> <i class="fas fa-star"></i>(5K+)</span>
+                                  
+                                  <h4 class="h4">Places</h4>
+                                 </div>
+                                  <div class="item">
+                                      <button class="btn">$ 4556</button>
+                                  </div>
+                              
+                          </div>
+                         </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 px-1 my-2">
+                        <div class="card-design">
+                            <div class="image">
+                                <img src="images/destination_5.jpg" alt="destination1">
+                            </div>
+                              <div class="card-text shadow">
+                                  <div class="item">
+                                      <span> <i class="fas fa-star"></i>(5K+)</span>
+                                      
+                                      <h4 class="h4">Places</h4>
+                                     </div>
+                                      <div class="item">
+                                          <button class="btn">$ 4556</button>
+                                      </div>
+                                  
+                              </div>
+                             </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 px-1 my-2">
+                            <div class="card-design">
+                                <div class="image">
+                                    <img src="images/destination_5.jpg" alt="destination1">
+                                </div>
+                                  <div class="card-text shadow">
+                                      <div class="item">
+                                          <span> <i class="fas fa-star"></i>(5K+)</span>
+                                          
+                                          <h4 class="h4">Places</h4>
+                                         </div>
+                                          <div class="item">
+                                              <button class="btn">$ 4556</button>
+                                          </div>
+                                      
+                                  </div>
+                                 </div>
+                            </div>
+                        
+                            <div class="col-lg-3 col-md-4 px-1 my-3">
+                                <div class="card-design">
+                                    <div class="image">
+                                        <img src="images/destination_5.jpg" alt="destination1">
+                                    </div>
+                                      <div class="card-text shadow">
+                                          <div class="item">
+                                              <span> <i class="fas fa-star"></i>(5K+)</span>
+                                              
+                                              <h4 class="h4">Places</h4>
+                                             </div>
+                                              <div class="item">
+                                                  <button class="btn">$ 4556</button>
+                                              </div>
+                                          
+                                      </div>
+                                     </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 px-1 my-3">
+                                    <div class="card-design">
+                                        <div class="image">
+                                            <img src="images/destination_5.jpg" alt="destination1">
+                                        </div>
+                                          <div class="card-text shadow">
+                                              <div class="item">
+                                                  <span> <i class="fas fa-star"></i>(5K+)</span>
+                                                  
+                                                  <h4 class="h4">Places</h4>
+                                                 </div>
+                                                  <div class="item">
+                                                      <button class="btn">$ 4556</button>
+                                                  </div>
+                                              
+                                          </div>
+                                         </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 px-1 my-3">
+                                        <div class="card-design">
+                                            <div class="image">
+                                                <img src="images/destination_5.jpg" alt="destination1">
+                                            </div>
+                                              <div class="card-text shadow">
+                                                  <div class="item">
+                                                      <span> <i class="fas fa-star"></i>(5K+)</span>
+                                                      
+                                                      <h4 class="h4">Places</h4>
+                                                     </div>
+                                                      <div class="item">
+                                                          <button class="btn">$ 4556</button>
+                                                      </div>
+                                                  
+                                              </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 px-1 my-3">
+                                            <div class="card-design">
+                                                <div class="image">
+                                                    <img src="images/destination_5.jpg" alt="destination1">
+                                                </div>
+                                                  <div class="card-text shadow">
+                                                      <div class="item">
+                                                          <span> <i class="fas fa-star"></i>(5K+)</span>
+                                                          
+                                                          <h4 class="h4">Places</h4>
+                                                         </div>
+                                                          <div class="item">
+                                                              <button class="btn">$ 4556</button>
+                                                          </div>
+                                                      
+                                                  </div>
+                                                 </div>
+                                            </div>
+               </div>
+           </div>
+
+        
+
+</section>
+<!-- destinations top sale  end -->
+  
+<!-- showcase section -->
+<section class="showcase">
+    <div class="container">
+        <div class="title py-5">
+            <h4 class="title-primary">Showcase</h4>
+            <h4 class="title-secondary">Beutiful  Snaps</h4>
+
+            
+
+        </div>
+    </div>
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/destination_8.jpg" alt="slide1">
+                
+           </div>
+           <div class="swiper-slide"><img src="images/destination_4.jpg" alt="slide1">
+                
+           </div>
+           <div class="swiper-slide"><img src="images/destination_1.jpg" alt="slide1">
+                
+           </div>
+           <div class="swiper-slide"><img src="images/destination_2.jpg" alt="slide1">
+                
+           </div>
+         
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+ 
+    </div>
+     <div class="services">
+       <div class="container">       
+         <div class="row">
+             <div class="col-lg-4">
+               <div class="card-design">
+                   <i class="fas fa-marker"></i>
+                   <h4 class="h4">Customize your Holidays Packages</h4>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolor ea optio necessitatibus omnis. Soluta!</p>
+                   <a>Read more</a>
+
+               </div>
+             </div>
+             <div class="col-lg-4">
+              <div class="card-design">
+              <i class="fas fa-hand-holding-usd"></i>
+              <h4 class="h4">Lowest price packages Guarantee</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, nam facere id dolorem inventore explicabo.</p>
+              <a>Read more</a>
+            </div>
+             </div>
+            <div class="col-lg-4">
+              <div class="card-design">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h4 class="h4">Lowest price packages Guarantee</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, nam facere id dolorem inventore explicabo.</p>
+                <a>Read more</a>
+              </div>
+            </div>
+         </div>
+     </div>
+    </div>
+  
+</section>
+<!-- showcase section -->
+<section class="listing">
+  <div class="container">
+    <div class="title py-5">
+        <h4 class="title-primary">Top destinations</h4>
+        <h4 class="title-secondary">Beutiful piece of Earth </h4>
+    </div>
+</div>
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    
+<div class="swiper-slide">
+  <div class="image">
+    <img src="images/destination_2.jpg" alt="destination1">
+</div>
+<div class="card-text">
+  <div class="listing-count">
+   <div class="item">
+     <i class="fas fa-calendar-alt"></i>27/03/2021
+   </div>
+   <div class="item">
+     <i class="fas fa-user"></i>(18+)
+   </div>
+   <div class="item">
+     <i class="fas fa-map-marker-alt"></i>Area
+   </div>
+  
+  </div>
+  
+    <h4 class="h4">
+     Goa
+    </h4>
+  </div>
+</div>
+
+<div class="swiper-slide">
+  <div class="image">
+    <img src="images/destination_2.jpg" alt="destination1">
+</div>
+<div class="card-text">
+  <div class="listing-count">
+   <div class="item">
+     <i class="fas fa-calendar-alt"></i>27/03/2021
+   </div>
+   <div class="item">
+     <i class="fas fa-user"></i>(18+)
+   </div>
+   <div class="item">
+     <i class="fas fa-map-marker-alt"></i>Area
+   </div>
+  
+  </div>
+  
+    <h4 class="h4">
+     Goa
+    </h4>
+  </div>
+</div>
+<div class="swiper-slide">
+  <div class="image">
+    <img src="images/destination_2.jpg" alt="destination1">
+</div>
+<div class="card-text">
+  <div class="listing-count">
+   <div class="item">
+     <i class="fas fa-calendar-alt"></i>27/03/2021
+   </div>
+   <div class="item">
+     <i class="fas fa-user"></i>(18+)
+   </div>
+   <div class="item">
+     <i class="fas fa-map-marker-alt"></i>Area
+   </div>
+  
+  </div>
+  
+    <h4 class="h4">
+     Goa
+    </h4>
+  </div>
+</div>
+
+<div class="swiper-slide">
+  <div class="image">
+    <img src="images/destination_2.jpg" alt="destination1">
+</div>
+<div class="card-text">
+<div class="listing-count">
+ <div class="item">
+   <i class="fas fa-calendar-alt"></i>27/03/2021
+ </div>
+ <div class="item">
+   <i class="fas fa-user"></i>(18+)
+ </div>
+ <div class="item">
+   <i class="fas fa-map-marker-alt"></i>Area
+ </div>
+
+</div>
+
+  <h4 class="h4">
+   Goa
+  </h4>
+</div>
+</div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+</section>
+<!-- destination listings -->
+<!-- newsletter -->
+<section class="newsletter">
+<div class="contaimer">
+  <div class="newsletter-box">
+    <div class="item">
+      <div class="container">
+        <div class="title py-5">
+            <h4 class="title-primary">Always be uptodate</h4>
+            <h4 class="title-secondary">newsletter</h4>
+        </div>
+    </div>
+    </div>
+    <div class="item">
+      <div class="row px-0">
+        <div class="col-md-7 px-0">
+          <input type="email" name="email" placeholder="Email" class='from-control'>
+        </div>
+        <div class="col-md-5 px-0">
+          <button class="btn btn-theme">Subscribe Now</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</section>
+<!--newsletter end  -->
+<!-- Footer -->
+<footer class="page-footer font-small  pt-4 footer">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold color-primary">Tourastic Holidays</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis, earum facilis, atque consequuntur ab provident rerum eos animi temporibus id quae voluptate doloremque aliquam consequatur accusamus ex perferendis commodi dolore at. Ullam, voluptates? Delectus quam eaque maxime, reprehenderit voluptatibus porro exercitationem mollitia recusandae laborum.</p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+        <p>
+          <a href="#!">Tour packages</a>
+        </p>
+        <p>
+          <a href="#!">Honeymoon Tour</a>
+        </p>
+        <p>
+          <a href="#!">Religious Tours</a>
+        </p>
+        <p>
+          <a href="#!">Hotels</a>
+        </p>
+        <p>
+          <a href="#!">Flights</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <p>
+          <a href="#!">Your Account</a>
+        </p>
+        <p>
+          <a href="#!">Become an Affiliate</a>
+        </p>
+        <p>
+          <a href="#!">Blogs</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> Railway station ,mandsaur,m.p ,India</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@tourastic.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> +91-8999999999</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> +91- 8888999990</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2021 Copyright:
+          <a href="https://tourastic.com/">
+            <strong> tourastic.com</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+
+<!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+></script>
+<!-- swiper script -->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.banner .swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay:true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+});
+
+const swiper_showcase = new Swiper('.showcase .swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop:false,
+  slidesPerView:1,
+  spaceBetween: 10,
+
+//   If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+  
+  991: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    },
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  }
+
+  // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+});
+const swiper_listing = new Swiper('.listing .swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop:false,
+  slidesPerView:1,
+  spaceBetween: 20,
+
+//   If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+  
+  991: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    },
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  }
+
+  // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+});
+
+</script>
+<!-- <script src="js/jquery-3.2.1.min.js">
+</script>
+<script src="js/custom.js "></script> -->
+</body>
+</html>
